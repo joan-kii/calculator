@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <h1>The Odin Project Calculator</h1>
+    <main class="mainContainer" id="mainContainer">
+        <div class="calculator" id="calculator">
+            <div class="display" id="display">
+                <div id="displayContent">
+                    <span id="displayText">0</span>
+                </div>
+            </div>
+            <div id="keyboard">
+                <div class="line-1">
+                    <button class="buttons" id="help">Help</button>
+                    <button class="buttons" id="clear">Clear</button>
+                </div>
+                <div class="line">
+                    <button class="buttons number" value="7" id="seven">7</button>
+                    <button class="buttons number" value="8" id="eigth">8</button>
+                    <button class="buttons number" value="9" id="nine">9</button>
+                    <button class="buttons operator" value="*" id="multiply">x</button>
+                </div>
+                <div class="line">
+                    <button class="buttons number" value="4" id="four">4</button>
+                    <button class="buttons number" value="5" id="five">5</button>
+                    <button class="buttons number" value="6" id="six">6</button>
+                    <button class="buttons operator" value="/" id="divide">/</button>
+                </div>
+                <div class="line">
+                    <button class="buttons number" value="1" id="one">1</button>
+                    <button class="buttons number" value="2" id="two">2</button>
+                    <button class="buttons number" value="3" id="three">3</button>
+                    <button class="buttons operator" value="+" id="add">+</button>
+                </div>
+                <div class="line">
+                    <button class="buttons" id="delete">⌫</button>
+                    <button class="buttons number" value="0" id="zero">0</button>
+                    <button class="buttons" id="dot">.</button>
+                    <button class="buttons operator" value="-" id="substract">-</button>
+                </div>
+                <div class="line-6">
+                    <button class="buttons" value="=" id="equals">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="keyboardSupport" class="keyboard-support"></div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

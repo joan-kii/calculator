@@ -1,0 +1,1 @@
+Este es un ejercicio de The Odin Project que recrea una calculadora muy sencilla capaz de relizar solo las operaciones más básicas.

@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(80, 80, 80);
+    background-color: rgb(241, 212, 175);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.calculator {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 400px;
+    max-height: 600px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}
+
+.display {
+    padding: 15px 2px 2px 2px;
+    height: 2em;
+    background-color: cornsilk;
+    margin-bottom: 20px;
+    text-align: right;
+    border-radius: 3px;
+}
+
+span {
+    color: rgb(48, 48, 48);
+    font-family: 'Press Start 2P';
+    font-size: 1.2em;
+    padding-right: 0.3em;
+}
+
+.line-1 {
+    display: flex;
+}
+
+.line {
+    display: flex;
+}
+
+.line-6 {
+    display: flex;
+}
+
+.buttons {
+    color: rgb(80, 80, 80);
+    font-size: 2em;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.buttons:hover, #help:hover, #clear:hover, #multiply:hover,
+#divide:hover, #add:hover, #delete:hover, #dot:hover, 
+#substract:hover, #equals:hover {
+    background-color: coral;
+}
+
+#help {
+    flex: 1;
+    font-size: 1.1em;
+    background-color: rgb(161, 198, 240);
+}
+
+#clear {
+    flex: 3;
+    font-size: 1.1em;
+    background-color: rgb(161, 198, 240);
+}
+
+.number{
+    flex: 1;
+}
+.operator, #dot {
+    flex: 1;
+    background-color: rgb(192, 226, 192);
+}
+#delete {
+    flex: 1;
+    font-size: 0.80em;
+    background-color: rgb(192, 226, 192);
+}
+#equals {
+    flex: 1;
+    font-size: 1.2em;
+    background-color: rgb(161, 198, 240);
+}
+
+.keyboard-support {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2em;
+}
