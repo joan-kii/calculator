@@ -1,1 +1,7 @@
-Este es un ejercicio de The Odin Project que recrea una calculadora muy sencilla capaz de relizar solo las operaciones más básicas.
+## Overview
+This is an exercise for The Odin Project's JavaScript path. A very simple calculator.
+
+## Built with
+  - HTML
+  - CSS
+  - JavaScript 
